@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        double firstNumber = 20.00;
+        double secondNumber = 80.00;
+        double result = (firstNumber + secondNumber)*100;
+        double remainder = result % 40.00;
+        boolean isRemainderZero = (remainder== 0.00);
+        System.out.println("is the remainder zero?" + isRemainderZero);
+        if (!isRemainderZero) {
+            System.out.println("Got some remainder");
+        }
+    }
+}
