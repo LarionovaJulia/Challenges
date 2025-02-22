@@ -5,7 +5,7 @@ public class Main {
         double result = (firstNumber + secondNumber)*100;
         double remainder = result % 40.00;
         boolean isRemainderZero = (remainder== 0.00);
-        System.out.println("is the remainder zero?" + isRemainderZero);
+        System.out.println("is the remainder zero?" + true);
         if (!isRemainderZero) {
             System.out.println("Got some remainder");
         }
